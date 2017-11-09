@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   floridaparks.plist
+
+   Created by Asdruval De Leon on 11/9/17.
+   Copyright (c) 2017 Asdruval De Leon. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>statesPark</key>
+        <array>
+            <dict>
+                <key>name</key>
+                <string>Big Cypress National Preserve</string>
+                <key>thumbnailUrl</key>
+                <string></string>
+                <key>location</key>
+                <string>Ochopee, FL</string>
+                <key>imageUrl</key>
+                <string></string>
+                <key>yearOpen</key>
+                <string>1974</string>
+                <key>address</key>
+                <string>33100 Tamiami Trail East, Ochopee, Florida 34141</string>
+                <key>description</key>
+                <string>The freshwaters of the Big Cypress Swamp, essential
+                  to the health of the neighboring Everglades, support the rich
+                  marine estuaries along Florida's southwest coast. Protecting
+                  over 729,000 acres of this vast swamp, Big Cypress National
+                  Preserve contains a mixture of tropical and temperate plant
+                  communities that are home to a diversity of wildlife, including
+                  the elusive Florida panther.
+                </string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Biscayne National Park</string>
+                <key>thumbnailUrl</key>
+                <string></string>
+                <key>location</key>
+                <string>Key Biscayne, FL</string>
+                <key>imageUrl</key>
+                <string></string>
+                <key>yearOpen</key>
+                <string>1980</string>
+                <key>address</key>
+                <string>9700 SW 328th Street, Homestead, FL 33033 </string>
+                <key>description</key>
+                <string>Within sight of downtown Miami, yet worlds away, Biscayne
+                  protects a rare combination of aquamarine waters, emerald islands,
+                  and fish-bejeweled coral reefs. Here too is evidence of 10,000 years
+                  of human history, from pirates and shipwrecks to pineapple farmers
+                  and presidents. Outdoors enthusiasts can boat, snorkel, camp, watch
+                  wildlife…or simply relax in a rocking chair gazing out over the bay.
+                 </string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Castillo de San Marcos</string>
+                <key>thumbnailUrl</key>
+                <string></string>
+                <key>location</key>
+                <string>St. Augustine, FL</string>
+                <key>imageUrl</key>
+                <string></string>
+                <key>yearOpen</key>
+                <string>1924</string>
+                <key>address</key>
+                <string>1 S Castillo Dr, St Augustine, FL 32084</string>
+                <key>description</key>
+                <string>A monument not only of stone and mortar but of human
+                  determination and endurance, the Castillo de San Marcos
+                  symbolizes the clash between cultures which ultimately
+                  resulted in our uniquely unified nation. Still resonant
+                  with the struggles of an earlier time, these original
+                  walls provide tangible evidence of America’s grim but
+                  remarkable history.
+                </string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Canaveral National Seashore</string>
+                <key>thumbnailUrl</key>
+                <string></string>
+                <key>location</key>
+                <string>Titusville, FL</string>
+                <key>imageUrl</key>
+                <string></string>
+                <key>yearOpen</key>
+                <string>1975</string>
+                <key>address</key>
+                <string>S Washington Ave, Titusville, FL 32796</string>
+                <key>description</key>
+                <string>Since ancient times, this barrier island has provided
+                  sanctuary to both people and wildlife. Many threatened and
+                  endangered species find refuge here, including sea turtles who
+                  nest on its shores. Like first natives and early settlers, you
+                  too can find tranquility. Stroll down a wooded trail. Reflect
+                  on a pristine undeveloped shoreline - the way things used to be.
+                </string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>De Soto National Memorial</string>
+                <key>thumbnailUrl</key>
+                <string></string>
+                <key>location</key>
+                <string>Bradenton, FL</string>
+                <key>imageUrl</key>
+                <string></string>
+                <key>yearOpen</key>
+                <string>1966</string>
+                <key>address</key>
+                <string>8300 Desoto Memorial Hwy, Bradenton, FL 34209</string>
+                <key>description</key>
+                <string>In May 1539, Conquistador Hernando de Soto’s army of
+                  soldiers, hired mercenaries, craftsmen and clergy made
+                  landfall in Tampa Bay. They were met with fierce resistance
+                  of indigenous people protecting their homelands. De Soto’s
+                  quest for glory and gold would be a four year, four thousand
+                  mile odyssey of intrigue, warfare, disease, and discovery that
+                  would form the history of the United States.
+                </string>
+            </dict>
+        </array>
+    </dict>
+</plist>

@@ -8,24 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		F58C79D31FB3B4E20009388E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F58C79D21FB3B4E20009388E /* AppDelegate.m */; };
-		F58C79D61FB3B4E20009388E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F58C79D51FB3B4E20009388E /* ViewController.m */; };
 		F58C79D91FB3B4E20009388E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58C79D71FB3B4E20009388E /* Main.storyboard */; };
 		F58C79DB1FB3B4E20009388E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58C79DA1FB3B4E20009388E /* Assets.xcassets */; };
 		F58C79DE1FB3B4E20009388E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58C79DC1FB3B4E20009388E /* LaunchScreen.storyboard */; };
 		F58C79E11FB3B4E20009388E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F58C79E01FB3B4E20009388E /* main.m */; };
+		F58C79E91FB3B5750009388E /* StateParkTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F58C79E81FB3B5750009388E /* StateParkTableViewController.m */; };
+		F5A37FFB1FB4D7E600EC2C97 /* floridaparks.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5A37FFA1FB4D7E600EC2C97 /* floridaparks.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F58C79CE1FB3B4E20009388E /* HW01-DeLeonA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW01-DeLeonA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58C79D11FB3B4E20009388E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F58C79D21FB3B4E20009388E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F58C79D41FB3B4E20009388E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F58C79D51FB3B4E20009388E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F58C79D81FB3B4E20009388E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F58C79DA1FB3B4E20009388E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F58C79DD1FB3B4E20009388E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F58C79DF1FB3B4E20009388E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F58C79E01FB3B4E20009388E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F58C79E71FB3B5750009388E /* StateParkTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateParkTableViewController.h; sourceTree = "<group>"; };
+		F58C79E81FB3B5750009388E /* StateParkTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateParkTableViewController.m; sourceTree = "<group>"; };
+		F5A37FFA1FB4D7E600EC2C97 /* floridaparks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = floridaparks.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +60,11 @@
 		F58C79D01FB3B4E20009388E /* HW01-DeLeonA */ = {
 			isa = PBXGroup;
 			children = (
+				F5A37FFA1FB4D7E600EC2C97 /* floridaparks.plist */,
 				F58C79D11FB3B4E20009388E /* AppDelegate.h */,
 				F58C79D21FB3B4E20009388E /* AppDelegate.m */,
-				F58C79D41FB3B4E20009388E /* ViewController.h */,
-				F58C79D51FB3B4E20009388E /* ViewController.m */,
+				F58C79E71FB3B5750009388E /* StateParkTableViewController.h */,
+				F58C79E81FB3B5750009388E /* StateParkTableViewController.m */,
 				F58C79D71FB3B4E20009388E /* Main.storyboard */,
 				F58C79DA1FB3B4E20009388E /* Assets.xcassets */,
 				F58C79DC1FB3B4E20009388E /* LaunchScreen.storyboard */,
@@ -131,6 +134,7 @@
 			files = (
 				F58C79DE1FB3B4E20009388E /* LaunchScreen.storyboard in Resources */,
 				F58C79DB1FB3B4E20009388E /* Assets.xcassets in Resources */,
+				F5A37FFB1FB4D7E600EC2C97 /* floridaparks.plist in Resources */,
 				F58C79D91FB3B4E20009388E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,9 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F58C79D61FB3B4E20009388E /* ViewController.m in Sources */,
 				F58C79E11FB3B4E20009388E /* main.m in Sources */,
 				F58C79D31FB3B4E20009388E /* AppDelegate.m in Sources */,
+				F58C79E91FB3B5750009388E /* StateParkTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

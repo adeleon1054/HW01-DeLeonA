@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  StateParkTableViewController.h
 //  HW01-DeLeonA
 //
 //  Created by Asdruval De Leon on 11/8/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface StateParkTableViewController : UITableViewController
 
 @end
-
