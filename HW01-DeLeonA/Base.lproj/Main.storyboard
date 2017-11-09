@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -70,14 +71,97 @@
                     <view key="view" contentMode="scaleToFill" id="WAk-9B-rCz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OAQ-8c-mtN">
+                                <rect key="frame" x="5" y="69" width="365" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="7dR-es-CP4"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YGF-hR-uVG">
+                                <rect key="frame" x="16" y="346" width="91" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="qdb-tV-94c"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Established:">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.13333" green="0.13333" blue="0.13333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="15" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LEN-vR-slR">
+                                <rect key="frame" x="16" y="381" width="91" height="21"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Address:">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.13333" green="0.13333" blue="0.13333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="15" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CEg-cG-Cmq">
+                                <rect key="frame" x="16" y="453" width="91" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="dfB-BB-yE0"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Description:">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.13333" green="0.13333" blue="0.13333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="15" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="0.49803921569999998" green="0.80392156859999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="OAQ-8c-mtN" firstAttribute="top" secondItem="C4d-e1-P5q" secondAttribute="top" constant="5" id="8hd-tH-pv4"/>
+                            <constraint firstItem="C4d-e1-P5q" firstAttribute="trailing" secondItem="OAQ-8c-mtN" secondAttribute="trailing" constant="5" id="A9X-fH-t8D"/>
+                            <constraint firstItem="YGF-hR-uVG" firstAttribute="leading" secondItem="CEg-cG-Cmq" secondAttribute="leading" id="AcM-sC-7sU"/>
+                            <constraint firstItem="YGF-hR-uVG" firstAttribute="top" secondItem="OAQ-8c-mtN" secondAttribute="bottom" constant="20" id="Fvd-nO-LFQ"/>
+                            <constraint firstItem="C4d-e1-P5q" firstAttribute="trailing" secondItem="CEg-cG-Cmq" secondAttribute="trailing" constant="268" id="K1P-3e-ALv"/>
+                            <constraint firstItem="YGF-hR-uVG" firstAttribute="trailing" secondItem="LEN-vR-slR" secondAttribute="trailing" id="O1g-Tl-dQm"/>
+                            <constraint firstItem="LEN-vR-slR" firstAttribute="top" secondItem="YGF-hR-uVG" secondAttribute="bottom" constant="14" id="Z7b-vZ-eIs"/>
+                            <constraint firstItem="OAQ-8c-mtN" firstAttribute="leading" secondItem="C4d-e1-P5q" secondAttribute="leading" constant="5" id="aFb-wo-h5X"/>
+                            <constraint firstItem="YGF-hR-uVG" firstAttribute="trailing" secondItem="CEg-cG-Cmq" secondAttribute="trailing" id="fFJ-Ms-EQb"/>
+                            <constraint firstItem="C4d-e1-P5q" firstAttribute="bottom" secondItem="CEg-cG-Cmq" secondAttribute="bottom" constant="193" id="jAE-Uk-Skz"/>
+                            <constraint firstItem="CEg-cG-Cmq" firstAttribute="top" secondItem="LEN-vR-slR" secondAttribute="bottom" constant="51" id="nIk-cg-ghI"/>
+                            <constraint firstItem="YGF-hR-uVG" firstAttribute="leading" secondItem="WAk-9B-rCz" secondAttribute="leadingMargin" id="uRT-Fe-tOj"/>
+                            <constraint firstItem="YGF-hR-uVG" firstAttribute="leading" secondItem="LEN-vR-slR" secondAttribute="leading" id="wee-6z-XKo"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="C4d-e1-P5q"/>
                     </view>
                     <navigationItem key="navigationItem" title="Park Name" id="rop-D5-2b9"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tfL-MY-d4u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1266" y="131"/>
+            <point key="canvasLocation" x="1264.8" y="130.88455772113943"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="YvM-ic-Aac">
