@@ -7,9 +7,14 @@
 //
 
 #import "StateParkDetailViewController.h"
+#import "StateParkInfo.h"
 
 @interface StateParkDetailViewController ()
 
+@property (weak, nonatomic) IBOutlet UIImageView *parkImage;
+@property (weak, nonatomic) IBOutlet UILabel *lblYear;
+@property (weak, nonatomic) IBOutlet UILabel *lblAddress;
+@property (weak, nonatomic) IBOutlet UILabel *lblDescription;
 
 
 @end
@@ -19,6 +24,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    _parkImage.image = _currentStatePark.parkImage;
+    _lblYear.text = [NSString stringWithFormat:@"%@", _currentStatePark.yearOpen];
+    _lblAddress.text = [NSString stringWithFormat:@"%@", _currentStatePark.address];
+    _lblDescription.text = [NSString stringWithFormat:@"%@", _currentStatePark.descriptionInfo];
+
 }
 
 - (void)didReceiveMemoryWarning {
