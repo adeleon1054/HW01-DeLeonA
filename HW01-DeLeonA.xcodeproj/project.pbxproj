@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F50279D61FB8C0FA000D5AA1 /* StateParkTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F50279D51FB8C0FA000D5AA1 /* StateParkTableViewCell.m */; };
+		F50279D91FB8C171000D5AA1 /* StateParkInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F50279D81FB8C171000D5AA1 /* StateParkInfo.m */; };
+		F50279DC1FB8C1BC000D5AA1 /* StateParkDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50279DB1FB8C1BC000D5AA1 /* StateParkDetailViewController.m */; };
 		F58C79D31FB3B4E20009388E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F58C79D21FB3B4E20009388E /* AppDelegate.m */; };
 		F58C79D91FB3B4E20009388E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58C79D71FB3B4E20009388E /* Main.storyboard */; };
 		F58C79DB1FB3B4E20009388E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58C79DA1FB3B4E20009388E /* Assets.xcassets */; };
@@ -17,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F50279D41FB8C0FA000D5AA1 /* StateParkTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateParkTableViewCell.h; sourceTree = "<group>"; };
+		F50279D51FB8C0FA000D5AA1 /* StateParkTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateParkTableViewCell.m; sourceTree = "<group>"; };
+		F50279D71FB8C171000D5AA1 /* StateParkInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateParkInfo.h; sourceTree = "<group>"; };
+		F50279D81FB8C171000D5AA1 /* StateParkInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateParkInfo.m; sourceTree = "<group>"; };
+		F50279DA1FB8C1BC000D5AA1 /* StateParkDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateParkDetailViewController.h; sourceTree = "<group>"; };
+		F50279DB1FB8C1BC000D5AA1 /* StateParkDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateParkDetailViewController.m; sourceTree = "<group>"; };
 		F58C79CE1FB3B4E20009388E /* HW01-DeLeonA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW01-DeLeonA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58C79D11FB3B4E20009388E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F58C79D21FB3B4E20009388E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -65,6 +74,12 @@
 				F58C79D21FB3B4E20009388E /* AppDelegate.m */,
 				F58C79E71FB3B5750009388E /* StateParkTableViewController.h */,
 				F58C79E81FB3B5750009388E /* StateParkTableViewController.m */,
+				F50279D41FB8C0FA000D5AA1 /* StateParkTableViewCell.h */,
+				F50279D51FB8C0FA000D5AA1 /* StateParkTableViewCell.m */,
+				F50279D71FB8C171000D5AA1 /* StateParkInfo.h */,
+				F50279D81FB8C171000D5AA1 /* StateParkInfo.m */,
+				F50279DA1FB8C1BC000D5AA1 /* StateParkDetailViewController.h */,
+				F50279DB1FB8C1BC000D5AA1 /* StateParkDetailViewController.m */,
 				F58C79D71FB3B4E20009388E /* Main.storyboard */,
 				F58C79DA1FB3B4E20009388E /* Assets.xcassets */,
 				F58C79DC1FB3B4E20009388E /* LaunchScreen.storyboard */,
@@ -147,8 +162,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F58C79E11FB3B4E20009388E /* main.m in Sources */,
+				F50279D61FB8C0FA000D5AA1 /* StateParkTableViewCell.m in Sources */,
 				F58C79D31FB3B4E20009388E /* AppDelegate.m in Sources */,
 				F58C79E91FB3B5750009388E /* StateParkTableViewController.m in Sources */,
+				F50279D91FB8C171000D5AA1 /* StateParkInfo.m in Sources */,
+				F50279DC1FB8C1BC000D5AA1 /* StateParkDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

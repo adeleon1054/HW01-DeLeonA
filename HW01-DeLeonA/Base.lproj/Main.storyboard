@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="Pqn-E2-zzD">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="StateParkInfoCellID" id="Pqn-E2-zzD" customClass="StateParkTableViewCell">
                                 <rect key="frame" x="0.0" y="28" width="375" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Pqn-E2-zzD" id="Rzm-4f-m8a">
@@ -49,7 +49,10 @@
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" red="0.49803921569999998" green="0.80392156859999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
-                                    <segue destination="lGE-h4-KO3" kind="show" id="pR5-nY-acD"/>
+                                    <outlet property="parkLocation" destination="sF4-e6-jln" id="Vcj-5m-B7O"/>
+                                    <outlet property="parkName" destination="le9-Uz-5xh" id="FXm-Xy-Rrd"/>
+                                    <outlet property="thumbnailImageView" destination="qit-lp-zOm" id="6qK-Vc-sbh"/>
+                                    <segue destination="lGE-h4-KO3" kind="show" identifier="showDetails" id="pR5-nY-acD"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -67,7 +70,7 @@
         <!--Park Name-->
         <scene sceneID="e44-32-vkj">
             <objects>
-                <viewController id="lGE-h4-KO3" sceneMemberID="viewController">
+                <viewController id="lGE-h4-KO3" customClass="StateParkDetailViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WAk-9B-rCz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -23,7 +23,7 @@
                 <string>1974</string>
                 <key>address</key>
                 <string>33100 Tamiami Trail East, Ochopee, Florida 34141</string>
-                <key>description</key>
+                <key>descriptionInfo</key>
                 <string>The freshwaters of the Big Cypress Swamp, essential
                   to the health of the neighboring Everglades, support the rich
                   marine estuaries along Florida's southwest coast. Protecting
@@ -46,7 +46,7 @@
                 <string>1980</string>
                 <key>address</key>
                 <string>9700 SW 328th Street, Homestead, FL 33033 </string>
-                <key>description</key>
+                <key>descriptionInfo</key>
                 <string>Within sight of downtown Miami, yet worlds away, Biscayne
                   protects a rare combination of aquamarine waters, emerald islands,
                   and fish-bejeweled coral reefs. Here too is evidence of 10,000 years
@@ -68,7 +68,7 @@
                 <string>1924</string>
                 <key>address</key>
                 <string>1 S Castillo Dr, St Augustine, FL 32084</string>
-                <key>description</key>
+                <key>descriptionInfo</key>
                 <string>A monument not only of stone and mortar but of human
                   determination and endurance, the Castillo de San Marcos
                   symbolizes the clash between cultures which ultimately
@@ -91,7 +91,7 @@
                 <string>1975</string>
                 <key>address</key>
                 <string>S Washington Ave, Titusville, FL 32796</string>
-                <key>description</key>
+                <key>descriptionInfo</key>
                 <string>Since ancient times, this barrier island has provided
                   sanctuary to both people and wildlife. Many threatened and
                   endangered species find refuge here, including sea turtles who
@@ -113,7 +113,7 @@
                 <string>1966</string>
                 <key>address</key>
                 <string>8300 Desoto Memorial Hwy, Bradenton, FL 34209</string>
-                <key>description</key>
+                <key>descriptionInfo</key>
                 <string>In May 1539, Conquistador Hernando de Soto’s army of
                   soldiers, hired mercenaries, craftsmen and clergy made
                   landfall in Tampa Bay. They were met with fierce resistance
