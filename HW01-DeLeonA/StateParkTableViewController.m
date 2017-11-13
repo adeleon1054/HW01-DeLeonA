@@ -170,6 +170,7 @@
     
     // Configure the cell...
     StateParkInfo * item = [_stateParksArray objectAtIndex:indexPath.row];
+    cell.parkName.font = [UIFont fontWithName:@"Verdana-Bold" size:17];
     cell.parkName.text = item.name;
     cell.parkLocation.text = item.location;
     cell.thumbnailImageView.image = item.thumbnail;
@@ -223,6 +224,8 @@
         NSIndexPath *myIndexPath = [self.tableView indexPathForSelectedRow];
         StateParkInfo *item = [_stateParksArray objectAtIndex:myIndexPath.row];
         
+        detailVC.titleName = item.name;
+        
         detailVC.currentStatePark = item;
     }
     // Get the new view controller using [segue destinationViewController].
@@ -232,7 +235,7 @@
 #pragma mark - Tabelview Color
 -(void)tableView:(UITableView *)tableView willDisplayCell:(nonnull UITableViewCell *)cell forRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
     
-    UIColor *myColor = [UIColor colorWithRed: 136.0/255.0 green:203.0/255.0 blue:255.0/255.0 alpha:1.0]; [self hexStringFromColor: myColor];
+    UIColor *myColor = [UIColor colorWithRed: 191.0/255.0 green:207.0/255.0 blue:182.0/255.0 alpha:1.0]; [self hexStringFromColor: myColor];
     NSLog(@"%@",[self hexStringFromColor: myColor]);
     
     if(indexPath.row % 2 == 0)

@@ -11,4 +11,6 @@
 
 @interface StateParkDetailViewController : UIViewController
 @property (strong, nonatomic) StateParkInfo * currentStatePark;
+@property (strong, nonatomic) NSString *titleName;
+
 @end

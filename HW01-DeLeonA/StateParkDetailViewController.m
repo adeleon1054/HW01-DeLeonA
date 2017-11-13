@@ -25,6 +25,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.navigationItem.title = self.titleName;
     _parkImage.image = _currentStatePark.parkImage;
     _lblYear.text = [NSString stringWithFormat:@"%@", _currentStatePark.yearOpen];
     _lblAddress.text = [NSString stringWithFormat:@"%@", _currentStatePark.address];
