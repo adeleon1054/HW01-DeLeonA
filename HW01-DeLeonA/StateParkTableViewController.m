@@ -25,7 +25,7 @@
     bigCypress.thumbnail = [UIImage imageNamed:@"bigcypress_tn"];
     bigCypress.location = @"Ochopee, FL";
     bigCypress.parkImage = [UIImage imageNamed:@"bigcypress_lg"];
-    bigCypress.yearOpen = @"1974";
+    bigCypress.yearOpen = @"Established in 1974";
     bigCypress.address = @"33100 Tamiami Trail East, Ochopee, Florida 34141";
     bigCypress.descriptionInfo = @"The freshwaters of the Big Cypress Swamp, essential to the health of the neighboring Everglades, support the rich marine estuaries along Florida's southwest coast. Protecting over 729,000 acres of this vast swamp, Big Cypress National Preserve contains a mixture of tropical and temperate plant communities that are home to a diversity of wildlife, including the elusive Florida panther.";
     
@@ -34,7 +34,7 @@
     biscayne.thumbnail = [UIImage imageNamed:@"biscayne_tn"];
     biscayne.location = @"Key Biscayne, FL";
     biscayne.parkImage = [UIImage imageNamed:@"biscayne_lg"];
-    biscayne.yearOpen = @"1980";
+    biscayne.yearOpen = @"Established in 1980";
     biscayne.address = @"9700 SW 328th Street, Homestead, FL 33033";
     biscayne.descriptionInfo = @"Within sight of downtown Miami, yet worlds away, Biscayne protects a rare combination of aquamarine waters, emerald islands, and fish-bejeweled coral reefs. Here too is evidence of 10,000 years of human history, from pirates and shipwrecks to pineapple farmers and presidents. Outdoors enthusiasts can boat, snorkel, camp, watch wildlife…or simply relax in a rocking chair gazing out over the bay.";
     
@@ -43,7 +43,7 @@
     //sanMarcos.thumbnail = [UIImage imageNamed:@"imageLocation"];
     sanMarcos.location = @"St. Augustine, FL";
     //sanMarcos.parkImage = [UIImage imageNamed:@"imageLocation"];
-    sanMarcos.yearOpen = @"1924";
+    sanMarcos.yearOpen = @"Established in 1924";
     sanMarcos.address = @"1 S Castillo Dr, St Augustine, FL 32084";
     sanMarcos.descriptionInfo = @"A monument not only of stone and mortar but of human determination and endurance, the Castillo de San Marcos symbolizes the clash between cultures which ultimately resulted in our uniquely unified nation. Still resonant with the struggles of an earlier time, these original walls provide tangible evidence of America’s grim but remarkable history.";
     
