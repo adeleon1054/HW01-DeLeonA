@@ -15,6 +15,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *lblYear;
 @property (weak, nonatomic) IBOutlet UILabel *lblAddress;
 @property (weak, nonatomic) IBOutlet UILabel *lblDescription;
+@property (weak, nonatomic) IBOutlet UITextView *txtViewDescription;
 
 
 @end
@@ -27,7 +28,7 @@
     _parkImage.image = _currentStatePark.parkImage;
     _lblYear.text = [NSString stringWithFormat:@"%@", _currentStatePark.yearOpen];
     _lblAddress.text = [NSString stringWithFormat:@"%@", _currentStatePark.address];
-    _lblDescription.text = [NSString stringWithFormat:@"%@", _currentStatePark.descriptionInfo];
+    _txtViewDescription.text = [NSString stringWithFormat:@"%@", _currentStatePark.descriptionInfo];
 
 }
 
